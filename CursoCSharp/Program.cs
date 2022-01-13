@@ -7,6 +7,7 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.OrientacaoObjeto;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excecoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp {
     class Program {
@@ -91,6 +92,16 @@ namespace CursoCSharp {
                 //Exceções
                 {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
                 {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                //API
+                {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivo - Usando API", LendoArquivos.Executar},
+                {"Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
+                {"Diretorios - Usando API", Diretorios.Executar},
+                {"Exemplo DirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
+                {"Exemplo Path - Usando API", ExemploPath.Executar},
+                {"Exemplo Date Time - Usando API", ExemploDateTime.Executar},
+                {"Exemplo Time Span - Usando API", ExemploTimeSpan.Executar},
             });
 
             central.SelecionarEExecutar();
